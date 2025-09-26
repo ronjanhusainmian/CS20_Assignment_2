@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Cupcake Carousel</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <style type = "text/css">
+            body, html {
+                background-image: url("pastel\ background.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            h1 {font-size:60px; font-family: "Times New Roman"; text-align: center; 
+                background-color: #E0ACCA; color: white; align-items: center; 
+                }
+            
+            ul#nav {background-color: white; height: 50px; list-style-type: none; text-align: center; 
+                    padding-top: 10px; box-sizing: border-box; margin-top: 0;}
+            ul#nav li {display: inline-block; width: 100px;}
+            ul#nav li:hover {background-color: palevioletred;}
+            ul#nav li a {color: gray; text-decoration: none; font-size: 20px;}
+            ul#nav li a:hover {color: white;}
+
+            #redvelvet_photo {height: auto; width: 250px; margin: 1rem;}
+            #lemon_photo {height: 340px; width: 270px; margin: 1rem;}
+            #strawberry_photo {height: 340px; width: 250px; margin: 1rem;}
+            #chocolate_photo {height: 340px; width: 250px; margin: 1rem;}
+
+            #pecan_photo {height: 340px; width: 250px; margin: 1rem;}
+            #blueberry_photo {height: 340px; width: 270px; margin: 1rem;}
+            #vanilla_photo {height: 340px; width: 250px; margin: 1rem;}
+            #cottoncandy_photo {height: 340px; width: 250px; margin: 1rem;}
+
+            .menu {max-width: 1100 px; margin: 0 auto; padding: 0 16px;}
+            #menu_table {margin: 0 auto; width: fit-content;}
+
+            .fixed-footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                background-color: #85B3E0;
+                color: white;
+                padding: 5px 10px;
+                box-shadow: 0 2px 5px;
+                z-index: 900; 
+                margin: 0 auto;  
+                text-align: center;
+            }
+
+            .footer-nav {gap: 15px; display: inline-flex;}
+
+        </style>
+    </head>
+
+
+    <body>
+        <h1> Cupcake Carousel </h1>
+        
+        <ul id="nav">
+            <li><a href="index.html" target="_break">Home</a></li>
+            <li><a href="menu.html" target="_break">Our Menu</a></li>
+            <li><a href="place_order.html" target="_break">Order Now!</a></li>
+            <li><a href="contact.html" target="_break">Contact</a></li>
+        </ul>
+
+    <div class="menu">
+        <table id="menu_table">
+            <tr>
+                <th>Red Velvet</th>
+                <th>Lemon</th>
+                <th>Strawberry</th>
+                <th>Chocolate</th>
+            </tr>
+            <tr>
+                <td><img src="redvelvet.jpg" id="redvelvet_photo"></td>
+                <td><img src="lemon.jpg" id="lemon_photo"></td>
+                <td><img src="strawberry.jpg" id="strawberry_photo"></td>
+                <td><img src="chocolate.jpg" id="chocolate_photo"></td>
+                
+            </tr>
+            <tr>
+                <th>Caramel and Pecan</th>
+                <th>Blueberry</th>
+                <th>Chocolate and Vanilla</th>
+                <th>Cotton Candy</th>
+            </tr>
+            <tr>
+                <td><img src="pecan.jpg" id="pecan_photo"></td>
+                <td><img src="blueberry.jpg" id="blueberry_photo"></td>
+                <td><img src="vanilla.jpg" id="vanilla_photo"></td>
+                <td><img src="cottoncandy.jpg" id="cottoncandy_photo"></td>
+                
+            </tr>
+        </table>
+    </div>
+      
+
+   
+
+    <footer class="fixed-footer">
+        <p> 2025 Cupcake Carousel • Boston, MA</p>
+        <nav class="footer-nav">
+          <a href="index.html">Home</a>
+          <a href="menu.html">Our Menu</a>
+          <a href="place_order.html">Order</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+    </footer>
+    </body>
+</html>
